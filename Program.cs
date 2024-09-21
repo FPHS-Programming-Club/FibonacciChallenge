@@ -57,14 +57,12 @@ public static class Program
         BigInteger prev = 0, result = 0;
         while (DateTime.Now < end)
         {
-            output.Write(num);
-
             prev = result;
             result = code.Calculate(num++);
 
             DateTime now = DateTime.Now;
             TimeSpan time = now - start;
-            output.WriteLine($",{time.TotalSeconds},{result}");
+            output.WriteLine($"{num},{time.TotalSeconds},{result}");
         }
         output.Close();
         Console.WriteLine($"Done.\nResult: {num - 1} (Final Value {prev}).");
