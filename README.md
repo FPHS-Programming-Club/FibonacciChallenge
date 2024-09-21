@@ -1,3 +1,8 @@
+*This is the **Microsoft Visual C++** language template.*
+*If you need a different C++ template, talk to me.*
+
+---
+
 # Fibonacci Challenge (/Competition if you want)
 
 This is the first Programming Club competition in the 2024-2025 school year.
