@@ -1,0 +1,5 @@
+# Build files
+*.class
+
+# Extra debug stuff
+timings.csv
